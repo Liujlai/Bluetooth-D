@@ -13,6 +13,12 @@
 		78A548FE20E3622D002B7062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A548FD20E3622D002B7062 /* Assets.xcassets */; };
 		78A5490120E3622D002B7062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A548FF20E3622D002B7062 /* LaunchScreen.storyboard */; };
 		78A5490420E3622D002B7062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5490320E3622D002B7062 /* main.m */; };
+		78A5490F20E3626C002B7062 /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5490C20E3626C002B7062 /* UIWebView+UIImage.m */; };
+		78A5491020E3626C002B7062 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5490D20E3626C002B7062 /* UIImage+Bitmap.m */; };
+		78A5491620E36280002B7062 /* JWBluetoothManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5491220E36280002B7062 /* JWBluetoothManage.m */; };
+		78A5491720E36280002B7062 /* JWPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5491520E36280002B7062 /* JWPrinter.m */; };
+		78A5491D20E3628B002B7062 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5491920E3628B002B7062 /* MBProgressHUD.m */; };
+		78A5491E20E3628B002B7062 /* ProgressShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5491A20E3628B002B7062 /* ProgressShow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,19 @@
 		78A5490020E3622D002B7062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A5490220E3622D002B7062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A5490320E3622D002B7062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78A5490B20E3626C002B7062 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		78A5490C20E3626C002B7062 /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
+		78A5490D20E3626C002B7062 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		78A5490E20E3626C002B7062 /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		78A5491120E36280002B7062 /* JWBluetoothBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBluetoothBlocks.h; sourceTree = "<group>"; };
+		78A5491220E36280002B7062 /* JWBluetoothManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBluetoothManage.m; sourceTree = "<group>"; };
+		78A5491320E36280002B7062 /* JWBluetoothManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBluetoothManage.h; sourceTree = "<group>"; };
+		78A5491420E36280002B7062 /* JWPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPrinter.h; sourceTree = "<group>"; };
+		78A5491520E36280002B7062 /* JWPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPrinter.m; sourceTree = "<group>"; };
+		78A5491920E3628B002B7062 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		78A5491A20E3628B002B7062 /* ProgressShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressShow.m; sourceTree = "<group>"; };
+		78A5491B20E3628B002B7062 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		78A5491C20E3628B002B7062 /* ProgressShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressShow.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,7 @@
 				78A548F520E3622B002B7062 /* AppDelegate.m */,
 				78A548F720E3622B002B7062 /* ViewController.h */,
 				78A548F820E3622B002B7062 /* ViewController.m */,
+				78A5490A20E36251002B7062 /* JWBluetoothPrinte */,
 				78A548FA20E3622B002B7062 /* Main.storyboard */,
 				78A548FD20E3622D002B7062 /* Assets.xcassets */,
 				78A548FF20E3622D002B7062 /* LaunchScreen.storyboard */,
@@ -69,6 +89,34 @@
 				78A5490320E3622D002B7062 /* main.m */,
 			);
 			path = Bluetooth_D;
+			sourceTree = "<group>";
+		};
+		78A5490A20E36251002B7062 /* JWBluetoothPrinte */ = {
+			isa = PBXGroup;
+			children = (
+				78A5491120E36280002B7062 /* JWBluetoothBlocks.h */,
+				78A5491320E36280002B7062 /* JWBluetoothManage.h */,
+				78A5491220E36280002B7062 /* JWBluetoothManage.m */,
+				78A5491420E36280002B7062 /* JWPrinter.h */,
+				78A5491520E36280002B7062 /* JWPrinter.m */,
+				78A5491820E3628B002B7062 /* JWProgressHUD */,
+				78A5490B20E3626C002B7062 /* UIImage+Bitmap.h */,
+				78A5490D20E3626C002B7062 /* UIImage+Bitmap.m */,
+				78A5490E20E3626C002B7062 /* UIWebView+UIImage.h */,
+				78A5490C20E3626C002B7062 /* UIWebView+UIImage.m */,
+			);
+			path = JWBluetoothPrinte;
+			sourceTree = "<group>";
+		};
+		78A5491820E3628B002B7062 /* JWProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				78A5491920E3628B002B7062 /* MBProgressHUD.m */,
+				78A5491A20E3628B002B7062 /* ProgressShow.m */,
+				78A5491B20E3628B002B7062 /* MBProgressHUD.h */,
+				78A5491C20E3628B002B7062 /* ProgressShow.h */,
+			);
+			path = JWProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A5491720E36280002B7062 /* JWPrinter.m in Sources */,
+				78A5491E20E3628B002B7062 /* ProgressShow.m in Sources */,
 				78A548F920E3622B002B7062 /* ViewController.m in Sources */,
+				78A5490F20E3626C002B7062 /* UIWebView+UIImage.m in Sources */,
+				78A5491620E36280002B7062 /* JWBluetoothManage.m in Sources */,
+				78A5491020E3626C002B7062 /* UIImage+Bitmap.m in Sources */,
 				78A5490420E3622D002B7062 /* main.m in Sources */,
 				78A548F620E3622B002B7062 /* AppDelegate.m in Sources */,
+				78A5491D20E3628B002B7062 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +338,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T5NXR7M3P;
 				INFOPLIST_FILE = Bluetooth_D/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +356,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T5NXR7M3P;
 				INFOPLIST_FILE = Bluetooth_D/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
